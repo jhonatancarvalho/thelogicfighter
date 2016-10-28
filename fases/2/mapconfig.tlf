@@ -1,0 +1,19 @@
+#Sun Oct 19 10:55:47 BRST 2014
+clearInimigos=true
+btnDefender=true
+forcaFase=5
+staminaFase=5
+ableToPlayer=true
+clearItens=false
+levelFase=1
+expFase=0
+defesaFase=1
+lifeFase=100
+btnAtacar=true
+hudIf=true
+msgObjetivo=Derrote todos os inimigos para prosseguir\!
+hudF2=true
+hudF1=true
+textAlgoritmo=true
+hudFor=true
+playerSaveLoadDb=true

@@ -1,0 +1,19 @@
+**** Configuração da fase ****
+ableToPlayer = false
+msgObjetivo = "Voce deve pegar seu equipamento de batalha para seguir em frente!"
+
+**** Caracteristicas do player na fase ****
+playerSaveLoadDb = true
+levelFase = 1
+expFase = 0
+lifeFase = 100
+staminaFase = 5
+forcaFase = 5
+defesaFase = 1
+
+**** Funções liberadas ****
+hudF1 = true
+hudF2 = true
+hudFor = true
+hudIf = true
+textAlgoritmo = true

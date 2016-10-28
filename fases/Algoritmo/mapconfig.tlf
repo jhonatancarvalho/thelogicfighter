@@ -1,0 +1,27 @@
+#Configuracao da fase
+ableToPlayer = true
+
+#Objetivo
+msgObjetivo = Pege todos os itens encontrados e abra o bau no final da fase!
+clearInimigos = false
+clearItens = true
+
+#Caracteristicas do player na fase
+playerSaveLoadDb = false
+levelFase = 1
+expFase = 0
+lifeFase = 250
+staminaFase = 20
+forcaFase = 20
+defesaFase = 5
+
+#Botoes liberados
+btnAtacar = true
+btnDefender = true
+
+#Funcoes liberadas
+hudF1 = true
+hudF2 = true
+hudFor = true
+hudIf = true
+textAlgoritmo = true

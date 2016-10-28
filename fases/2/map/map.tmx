@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="24" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tiles11" tilewidth="32" tileheight="32">
+  <image source="tilesets/tiles11.png" width="2048" height="2048"/>
+  <tile id="36">
+   <properties>
+    <property name="hp" value="50"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4097" name="inimigos" tilewidth="32" tileheight="32">
+  <image source="../../1/map/tilesets/inimigos.png" width="64" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="ataque" value="20"/>
+    <property name="defesa" value="10"/>
+    <property name="experiencia" value="30"/>
+    <property name="health" value="50"/>
+    <property name="nome" value="soldado"/>
+    <property name="stamina" value="5"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="ataque" value="35"/>
+    <property name="defesa" value="0"/>
+    <property name="experiencia" value="500"/>
+    <property name="health" value="200"/>
+    <property name="nome" value="rei"/>
+    <property name="stamina" value="10"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="solo" width="24" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACxNkYGAQHMWjeBSP4lE8ikcxXTEAvm6xp4AHAAA=
+  </data>
+ </layer>
+ <layer name="Camada de Tiles 2" width="24" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC6WTTQ4BQRCFG8mwRTuCg7DAGldwEBbYDmdwECTG1s8V3EOLqsxLpau7h0q+ZKZn5r2qN93GVK+aoy5o/KCj1QCuh0RGNImW8u0ii6/79EcE10TRPyj6uL50rARrYkNsFf2Xoo/rR+IEXIiCuCr6KfmgDupx/9j7I4EpvN+H60/eY1NmzTOd4R2bwF2ZVfbr038G2JP+XMzAxTldlftY3WAGzeOfyk05QygnWUUt/Bz/IXqkztCsJzZC9W9O/chzmVPII6ZVxUOejZTquuyskt/HA/ct+vjOoq9mTnvuaLs9sCc6Yj/4fDQ/2TfnlzvNnvliFS/20bysp2/2QX3ERmaSaPlo+swucIZwD70BPPtTGIAHAAA=
+  </data>
+ </layer>
+ <layer name="Camada de Tiles 3" width="24" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SWQ7BUBSA4aMSwzLM+yDBA/ZgXojxAXtAyzqQIHZh3oa/qcjV0CD1Ik7ypWmb/L23rcj9FAMiJZRRQRU11APy9kQfXBvSGWEMHQYmmNr6TbSU8xRymkhec37mls4OexxwxAlnWz+p9FvXfo92Hxvv834oKBJGBFHEEEci6LyuhvPt2xTplFBGBVXUUFf6Bc2izgI++OH0qYZ0RhhDh4EJpkp/oFnU3tLz4gY+HJ+yn1f28Vbb1kuL9W9mXeqbvcy1Z76nNscOui711Z75npYcV1i71J9hLtY/9I1xe73/+c+vzAVPlhTygAcAAA==
+  </data>
+ </layer>
+ <layer name="Camada de Tiles 4" width="24" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgIAw0OYhQRARQwSGeSab5qmS7hIHhCCMDw1FGwupwuRkZbOCjwCFEgA9kmI/ubiU8ag34iTf3HBPpbikgwXw+ZtLNxwX8sLjVjwrmMwpA6D4ywoJWgJh0SqpaSvIXPQC+NE0PwCSAX56UOMEHGAnYQ45aUt020GGND1ArnGkBCLkNAN+icWeABwAA
+  </data>
+ </layer>
+ <objectgroup name="colisao">
+  <object x="142" y="0" width="191" height="61"/>
+  <object x="153" y="63" width="170" height="127"/>
+  <object x="299" y="190" width="9" height="24"/>
+  <object x="416" y="1" width="352" height="187"/>
+  <object x="480" y="189" width="288" height="95"/>
+  <object x="544" y="285" width="224" height="31"/>
+  <object x="544" y="318" width="95" height="61"/>
+  <object x="671" y="318" width="34" height="64"/>
+  <object x="67" y="166" width="23" height="21"/>
+  <object x="98" y="34" width="28" height="26"/>
+  <object x="3" y="98" width="27" height="28"/>
+  <object x="67" y="326" width="26" height="22"/>
+  <object x="228" y="450" width="22" height="29"/>
+  <object x="423" y="324" width="19" height="23"/>
+  <object x="483" y="389" width="24" height="22"/>
+  <object x="328" y="519" width="14" height="18"/>
+  <object x="36" y="581" width="21" height="24"/>
+  <object x="517" y="614" width="22" height="23"/>
+  <object x="0" y="-8" width="784" height="8"/>
+  <object x="771" y="3" width="12" height="647"/>
+  <object x="-11" y="-8" width="7" height="655"/>
+  <object x="0" y="641" width="768" height="8"/>
+ </objectgroup>
+</map>

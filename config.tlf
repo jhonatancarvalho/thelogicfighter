@@ -1,0 +1,27 @@
+**** Informações iniciais do jogador ****
+lifeInicial = 125
+staminaInicial = 30
+forcaInicial = 15
+defesaInicial = 10
+
+**** Configuração de ganho por level ****
+life = 15
+stamina = 5
+forca = 3
+defesa = 2
+
+**** Configuração de colisão ****
+colisionLoseHp = true
+colisionHp = 5
+
+**** Tabela de configuração de experiencia para proximo level ****
+0 = 30
+1 = 70
+2 = 160
+3 = 350
+4 = 740
+5 = 1530
+6 = 3120
+7 = 6310
+8 = 12700
+9 = 23490
