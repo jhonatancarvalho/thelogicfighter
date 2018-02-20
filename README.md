@@ -19,7 +19,7 @@ https://www.youtube.com/embed/A82FhWp39c8
 
 1º passo: Faço o clone/download do repositório em sua maquina usando:
 
-    git clone git@github.com:jhonatancarvalho/meanstackexemplo.git
+    git clone git@github.com:jhonatancarvalho/thelogicfighter.git
 
 2º passo: Importe o projeto na sua IDE desejada.
 
