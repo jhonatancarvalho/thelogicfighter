@@ -1,7 +1,5 @@
 <h2>TLF - The Logic Fighter</h2>
 
-<img src="https://s16.postimg.org/racrg4hgl/abertura.png" alt="Tela inicial">
-
 <br>Este repositório contém um projeto desenvolvido em 2014 no qual trás um jogo de lógica para auxiliar no aprendizado de algoritmo. O jogo em si, consta como objetivos de recolher itens e derrotar inimigos. Algumas das tecnologias utilizada:
 
 <ul>
